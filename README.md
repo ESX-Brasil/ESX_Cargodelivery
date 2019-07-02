@@ -1,29 +1,29 @@
 # esx_cargodelivery
 
-### Requirements
+### Requisitos
 * ESX Police job
-  * [esx_policejob](https://github.com/ESX-Org/esx_policejob)
+  * [esx_policejob](https://github.com/ESX-Brasil/esx_policejob)
 * GCPhone
-  * [GCPhone](https://github.com/N3MTV/gcphone) (for the text messages to work)
+  * [GCPhone](https://github.com/N3MTV/gcphone) (para as mensagens de texto funcionarem)
 
-## Download & Installation
+## Download e Instalação
 
-### Using Git
+### Usando o Git
 ```
 cd resources
-git clone https://github.com/apoiat/esx_cargodelivery [esx]/esx_cargodelivery
+git clone https://github.com/ESX-Brasil/esx_cargodelivery [esx]/esx_cargodelivery
 ```
 
-### Manually
-- Download https://github.com/apoiat/esx_cargodelivery/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_cargodelivery/archive/master.zip
+- Coloque-o no diretório `[esx]`
 
 
-## Installation
-- Add this in your server.cfg :
+## Instalação
+- Adicione isto em seu server.cfg:
 
 ```
 start esx_cargodelivery
 ```
--  * If you want to notify more societies add them at Config.AlertExtraSocieties.
-	 example: Config.AlertExtraSocieties = { "mafia", "bikers" }
+-  * Se você quiser notificar mais sociedades, adicione-as em Config.AlertExtraSocieties.
+	 exemplo: Config.AlertExtraSocieties = { "mafia", "bikers" }

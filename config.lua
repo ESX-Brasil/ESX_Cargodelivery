@@ -1,6 +1,6 @@
 Config                        	= {}
 
-Config.Locale       = 'en' --Available translations en - br
+Config.Locale       = 'br' --Available translations en - br
 
 Config.CopsScaleReward			= true
 
